@@ -1,0 +1,75 @@
+{
+  "users": [
+    { "id": "1", "name": "Alice Johnson" },
+    { "id": "2", "name": "Bob Smith" }
+  ],
+  "legalRules": [
+    {
+      "id": "1",
+      "title": "Federal Rule of Evidence 401",
+      "type": "statute",
+      "jurisdiction": "federal",
+      "description": "Defines relevance in evidence law."
+    },
+    {
+      "id": "2",
+      "title": "California Penal Code 187",
+      "type": "statute",
+      "jurisdiction": "state",
+      "description": "Defines murder under California law."
+    }
+  ],
+  "notes": [
+    {
+      "id": "1",
+      "userId": "1",
+      "legalRuleId": "1",
+      "content": "This rule is critical in evidence admissibility.",
+      "isReviewed": false
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "legalRuleId": "2",
+      "content": "Important for understanding homicide cases in CA.",
+      "isReviewed": true
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "legalRuleId": "1",
+      "content": "Test note for legal rule 1.",
+      "isReviewed": false
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "1",
+      "userId": "1",
+      "legalRuleId": "1",
+      "timestamp": "2024-12-08T08:00:00Z"
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "legalRuleId": "2",
+      "timestamp": "2024-12-08T09:00:00Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "userId": "1",
+      "legalRuleId": "1",
+      "content": "Very useful in civil cases.",
+      "timestamp": "2024-12-08T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "legalRuleId": "2",
+      "content": "Applicable in many criminal cases.",
+      "timestamp": "2024-12-08T11:00:00Z"
+    }
+  ]
+}
